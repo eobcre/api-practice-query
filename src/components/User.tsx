@@ -30,7 +30,7 @@ const User = () => {
   }
 
   return (
-    <div>
+    <div className='users-container'>
       <h2>Users</h2>
       <div>
         {data?.map((user: Users) => (
